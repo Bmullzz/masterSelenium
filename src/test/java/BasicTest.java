@@ -1,7 +1,10 @@
+
+
 //import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -11,7 +14,10 @@ public class BasicTest {
 
     private void googleExampleThatSearchesFor(final String searchString) {
 
-        WebDriver driver = new FirefoxDriver();
+
+        System.setProperty("webdriver.chrome.driver","/Users/brianrmullin/dev/selenium/chromedriver");
+        //String baseUrl = "https://www.google.com";
+        WebDriver driver = new ChromeDriver();
 
         driver.get("http://www.google.com");
 
@@ -40,11 +46,11 @@ public class BasicTest {
 
     @Test
     public void googleCheeseExample() {
-        googleExampleThatSearchesFor("Cheese");
+        googleExampleThatSearchesFor("Cheese!");
     }
 
     @Test
     public void googleMilkExample() {
-        googleExampleThatSearchesFor("Milk");
+        googleExampleThatSearchesFor("Milk!");
     }
 }

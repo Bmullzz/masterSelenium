@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-BasicTest">
-              <span class="suite-name border-failed">BasicTest</span>
+              <span class="suite-name border-passed">BasicTest</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,26 +91,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 2 failed,   </span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-BasicTest" class="hide-methods failed suite-BasicTest"> (hide)</a> <!-- hide-methods failed suite-BasicTest -->
-                      <a href="#" panel-name="suite-BasicTest" class="show-methods failed suite-BasicTest"> (show)</a> <!-- show-methods failed suite-BasicTest -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-BasicTest" class="hide-methods passed suite-BasicTest"> (hide)</a> <!-- hide-methods passed suite-BasicTest -->
+                      <a href="#" panel-name="suite-BasicTest" class="show-methods passed suite-BasicTest"> (show)</a> <!-- show-methods passed suite-BasicTest -->
                     </span>
-                    <div class="method-list-content failed suite-BasicTest">
+                    <div class="method-list-content passed suite-BasicTest">
                       <span>
-                        <img width="3%" src="failed.png"/>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-BasicTest" title="BasicTest" hash-for-method="googleCheeseExample">googleCheeseExample</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="failed.png"/>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-BasicTest" title="BasicTest" hash-for-method="googleMilkExample">googleMilkExample</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-BasicTest -->
+                    </div> <!-- method-list-content passed suite-BasicTest -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -122,9 +122,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-BasicTest" class="panel BasicTest">
-          <div class="suite-BasicTest-class-failed">
+          <div class="suite-BasicTest-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="passed.png"/>
               <span class="class-name">BasicTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -133,94 +133,6 @@
                   <a name="googleCheeseExample">
                   </a> <!-- googleCheeseExample -->
                   <span class="method-name">googleCheeseExample</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(/Applications/Firefox.app/Contents/MacOS/firefox-bin) on port 7055; process output follows: 
-xtensions.json
-1522885169994	addons.xpi	DEBUG	Ignoring file entry whose name is not a valid add-on ID: /var/folders/zd/n0k_cf017yd01z995kx4_7lc0000gn/T/anonymous8187962694522543327webdriver-profile/extensions/webdriver-staging
-1522885169994	addons.xpi	INFO	Mapping fxdriver@googlecode.com to /var/folders/zd/n0k_cf017yd01z995kx4_7lc0000gn/T/anonymous8187962694522543327webdriver-profile/extensions/fxdriver@googlecode.com
-1522885169994	addons.xpi	DEBUG	Existing add-on fxdriver@googlecode.com in app-profile
-1522885169994	addons.xpi	INFO	Mapping activity-stream@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/activity-stream@mozilla.org.xpi
-1522885169994	addons.xpi	INFO	Mapping aushelper@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/aushelper@mozilla.org.xpi
-1522885169994	addons.xpi	INFO	Mapping firefox@getpocket.com to /Applications/Firefox.app/Contents/Resources/browser/features/firefox@getpocket.com.xpi
-1522885169994	addons.xpi	INFO	Mapping followonsearch@mozilla.com to /Applications/Firefox.app/Contents/Resources/browser/features/followonsearch@mozilla.com.xpi
-1522885169994	addons.xpi	INFO	Mapping formautofill@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/formautofill@mozilla.org.xpi
-1522885169994	addons.xpi	INFO	Mapping onboarding@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/onboarding@mozilla.org.xpi
-1522885169994	addons.xpi	INFO	Mapping screenshots@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/screenshots@mozilla.org.xpi
-1522885169994	addons.xpi	INFO	Mapping shield-recipe-client@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/shield-recipe-client@mozilla.org.xpi
-1522885169994	addons.xpi	INFO	Mapping webcompat@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi
-1522885169994	addons.xpi	DEBUG	Existing add-on activity-stream@mozilla.org in app-system-defaults
-1522885169994	addons.xpi	DEBUG	Existing add-on aushelper@mozilla.org in app-system-defaults
-1522885169996	addons.xpi	DEBUG	Existing add-on firefox@getpocket.com in app-system-defaults
-1522885169996	addons.xpi	DEBUG	Existing add-on followonsearch@mozilla.com in app-system-defaults
-1522885169996	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
-1522885169996	addons.xpi	DEBUG	Existing add-on onboarding@mozilla.org in app-system-defaults
-1522885169996	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
-1522885169996	addons.xpi	DEBUG	Existing add-on shield-recipe-client@mozilla.org in app-system-defaults
-1522885169996	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
-1522885169996	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to /Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
-1522885169996	addons.xpi	DEBUG	Existing add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
-1522885169996	addons.xpi	DEBUG	getInstallState changed: false, state: {}
-2018-04-04 19:39:30.044 plugin-container[28682:1074107] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) &apos;Permission denied&apos;, port = 0x7317, name = &apos;com.apple.coredrag&apos;
-See /usr/include/servers/bootstrap_defs.h for the error codes.
-1522885170046	addons.xpi-utils	DEBUG	Async JSON file read took 0 MS
-1522885170046	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
-1522885170048	addons.xpi-utils	DEBUG	Successfully read XPI database
-2018-04-04 19:39:30.712 plugin-container[28683:1074271] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) &apos;Permission denied&apos;, port = 0x743b, name = &apos;com.apple.tsm.portname&apos;
-See /usr/include/servers/bootstrap_defs.h for the error codes.
-2018-04-04 19:39:30.838 plugin-container[28683:1074271] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) &apos;Permission denied&apos;, port = 0x7497, name = &apos;com.apple.coredrag&apos;
-See /usr/include/servers/bootstrap_defs.h for the error codes.
-
-Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
-System info: host: &apos;Brians-MacBook-Pro-2.local&apos;, ip: &apos;10.0.0.57&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.3&apos;, java.version: &apos;1.8.0_151&apos;
-Driver info: driver.version: FirefoxDriver
-	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:130)
-	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:114)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:191)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:186)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:182)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:95)
-	at BasicTest.googleExampleThatSearchesFor(BasicTest.java:14)
-	at BasicTest.googleCheeseExample(BasicTest.java:43)
-Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
-xtensions.json
-1522885169994	addons.xpi	DEBUG	Ignoring file entry whose name is not a valid add-on ID: /var/folders/zd/n0k_cf017yd01z995kx4_7lc0000gn/T/anonymous8187962694522543327webdriver-profile/extensions/webdriver-staging
-1522885169994	addons.xpi	INFO	Mapping fxdriver@googlecode.com to /var/folders/zd/n0k_cf017yd01z995kx4_7lc0000gn/T/anonymous8187962694522543327webdriver-profile/extensions/fxdriver@googlecode.com
-1522885169994	addons.xpi	DEBUG	Existing add-on fxdriver@googlecode.com in app-profile
-1522885169994	addons.xpi	INFO	Mapping activity-stream@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/activity-stream@mozilla.org.xpi
-1522885169994	addons.xpi	INFO	Mapping aushelper@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/aushelper@mozilla.org.xpi
-1522885169994	addons.xpi	INFO	Mapping firefox@getpocket.com to /Applications/Firefox.app/Contents/Resources/browser/features/firefox@getpocket.com.xpi
-1522885169994	addons.xpi	INFO	Mapping followonsearch@mozilla.com to /Applications/Firefox.app/Contents/Resources/browser/features/followonsearch@mozilla.com.xpi
-1522885169994	addons.xpi	INFO	Mapping formautofill@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/formautofill@mozilla.org.xpi
-1522885169994	addons.xpi	INFO	Mapping onboarding@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/onboarding@mozilla.org.xpi
-1522885169994	addons.xpi	INFO	Mapping screenshots@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/screenshots@mozilla.org.xpi
-1522885169994	addons.xpi	INFO	Mapping shield-recipe-client@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/shield-recipe-client@mozilla.org.xpi
-1522885169994	addons.xpi	INFO	Mapping webcompat@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi
-1522885169994	addons.xpi	DEBUG	Existing add-on activity-stream@mozilla.org in app-system-defaults
-1522885169994	addons.xpi	DEBUG	Existing add-on aushelper@mozilla.org in app-system-defaults
-1522885169996	addons.xpi	DEBUG	Existing add-on firefox@getpocket.com in app-system-defaults
-1522885169996	addons.xpi	DEBUG	Existing add-on followonsearch@mozilla.com in app-system-defaults
-1522885169996	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
-1522885169996	addons.xpi	DEBUG	Existing add-on onboarding@mozilla.org in app-system-defaults
-1522885169996	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
-1522885169996	addons.xpi	DEBUG	Existing add-on shield-recipe-client@mozilla.org in app-system-defaults
-1522885169996	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
-1522885169996	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to /Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
-1522885169996	addons.xpi	DEBUG	Existing add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
-1522885169996	addons.xpi	DEBUG	getInstallState changed: false, state: {}
-2018-04-04 19:39:30.044 plugin-container[28682:1074107] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) &apos;Permission denied&apos;, port = 0x7317, name = &apos;com.apple.coredrag&apos;
-See /usr/include/servers/bootstrap_defs.h for the error codes.
-1522885170046	addons.xpi-utils	DEBUG	Async JSON file read took 0 MS
-1522885170046	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
-1522885170048	addons.xpi-utils	DEBUG	Successfully read XPI database
-2018-04-04 19:39:30.712 plugin-container[28683:1074271] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) &apos;Permission denied&apos;, port = 0x743b, name = &apos;com.apple.tsm.portname&apos;
-See /usr/include/servers/bootstrap_defs.h for the error codes.
-2018-04-04 19:39:30.838 plugin-container[28683:1074271] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) &apos;Permission denied&apos;, port = 0x7497, name = &apos;com.apple.coredrag&apos;
-See /usr/include/servers/bootstrap_defs.h for the error codes.
-
-	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:118)
-	... 42 more
-... Removed 34 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -228,92 +140,10 @@ See /usr/include/servers/bootstrap_defs.h for the error codes.
                   <a name="googleMilkExample">
                   </a> <!-- googleMilkExample -->
                   <span class="method-name">googleMilkExample</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(/Applications/Firefox.app/Contents/MacOS/firefox-bin) on port 7055; process output follows: 
-tures/aushelper@mozilla.org.xpi
-1522885215890	addons.xpi	INFO	Mapping firefox@getpocket.com to /Applications/Firefox.app/Contents/Resources/browser/features/firefox@getpocket.com.xpi
-1522885215890	addons.xpi	INFO	Mapping followonsearch@mozilla.com to /Applications/Firefox.app/Contents/Resources/browser/features/followonsearch@mozilla.com.xpi
-1522885215890	addons.xpi	INFO	Mapping formautofill@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/formautofill@mozilla.org.xpi
-1522885215890	addons.xpi	INFO	Mapping onboarding@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/onboarding@mozilla.org.xpi
-1522885215890	addons.xpi	INFO	Mapping screenshots@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/screenshots@mozilla.org.xpi
-1522885215890	addons.xpi	INFO	Mapping shield-recipe-client@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/shield-recipe-client@mozilla.org.xpi
-1522885215890	addons.xpi	INFO	Mapping webcompat@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi
-1522885215890	addons.xpi	DEBUG	Existing add-on activity-stream@mozilla.org in app-system-defaults
-1522885215892	addons.xpi	DEBUG	Existing add-on aushelper@mozilla.org in app-system-defaults
-1522885215892	addons.xpi	DEBUG	Existing add-on firefox@getpocket.com in app-system-defaults
-1522885215892	addons.xpi	DEBUG	Existing add-on followonsearch@mozilla.com in app-system-defaults
-1522885215892	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
-1522885215892	addons.xpi	DEBUG	Existing add-on onboarding@mozilla.org in app-system-defaults
-1522885215892	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
-1522885215892	addons.xpi	DEBUG	Existing add-on shield-recipe-client@mozilla.org in app-system-defaults
-1522885215892	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
-1522885215892	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to /Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
-1522885215892	addons.xpi	DEBUG	Existing add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
-1522885215892	addons.xpi	DEBUG	getInstallState changed: false, state: {}
-2018-04-04 19:40:15.917 plugin-container[28687:1075074] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) &apos;Permission denied&apos;, port = 0x751b, name = &apos;com.apple.coredrag&apos;
-See /usr/include/servers/bootstrap_defs.h for the error codes.
-1522885215938	addons.xpi-utils	DEBUG	Async JSON file read took 0 MS
-1522885215938	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
-1522885215942	addons.xpi-utils	DEBUG	Successfully read XPI database
-2018-04-04 19:40:16.674 plugin-container[28688:1075212] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) &apos;Permission denied&apos;, port = 0x7b3b, name = &apos;com.apple.tsm.portname&apos;
-See /usr/include/servers/bootstrap_defs.h for the error codes.
-2018-04-04 19:40:16.799 plugin-container[28688:1075212] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) &apos;Permission denied&apos;, port = 0x7b57, name = &apos;com.apple.coredrag&apos;
-See /usr/include/servers/bootstrap_defs.h for the error codes.
-2018-04-04 19:40:55.644 firefox-bin[28686:1074941] IMKInputSession [0x1216fa700 presentFunctionRowItemTextInputViewWithEndpoint:completionHandler:] : [self textInputContext]=0x11b8cfca0 *NO* NSRemoteViewController to client, NSError=Error Domain=NSCocoaErrorDomain Code=4097 &quot;connection from pid 0&quot; UserInfo={NSDebugDescription=connection from pid 0}, com.apple.inputmethod.EmojiFunctionRowItem
-2018-04-04 19:40:55.651 firefox-bin[28686:1074941] IMKInputSession [0x1216fa700 presentFunctionRowItemTextInputViewWithEndpoint:completionHandler:] : [self textInputContext]=0x11b8cfca0 *NO* NSRemoteViewController to client, NSError=Error Domain=NSCocoaErrorDomain Code=4097 &quot;connection from pid 0&quot; UserInfo={NSDebugDescription=connection from pid 0}, com.apple.inputmethod.EmojiFunctionRowItem
-
-Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
-System info: host: &apos;Brians-MacBook-Pro-2.local&apos;, ip: &apos;10.0.0.57&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.3&apos;, java.version: &apos;1.8.0_151&apos;
-Driver info: driver.version: FirefoxDriver
-	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:130)
-	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:114)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:191)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:186)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:182)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:95)
-	at BasicTest.googleExampleThatSearchesFor(BasicTest.java:14)
-	at BasicTest.googleMilkExample(BasicTest.java:48)
-Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
-tures/aushelper@mozilla.org.xpi
-1522885215890	addons.xpi	INFO	Mapping firefox@getpocket.com to /Applications/Firefox.app/Contents/Resources/browser/features/firefox@getpocket.com.xpi
-1522885215890	addons.xpi	INFO	Mapping followonsearch@mozilla.com to /Applications/Firefox.app/Contents/Resources/browser/features/followonsearch@mozilla.com.xpi
-1522885215890	addons.xpi	INFO	Mapping formautofill@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/formautofill@mozilla.org.xpi
-1522885215890	addons.xpi	INFO	Mapping onboarding@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/onboarding@mozilla.org.xpi
-1522885215890	addons.xpi	INFO	Mapping screenshots@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/screenshots@mozilla.org.xpi
-1522885215890	addons.xpi	INFO	Mapping shield-recipe-client@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/shield-recipe-client@mozilla.org.xpi
-1522885215890	addons.xpi	INFO	Mapping webcompat@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi
-1522885215890	addons.xpi	DEBUG	Existing add-on activity-stream@mozilla.org in app-system-defaults
-1522885215892	addons.xpi	DEBUG	Existing add-on aushelper@mozilla.org in app-system-defaults
-1522885215892	addons.xpi	DEBUG	Existing add-on firefox@getpocket.com in app-system-defaults
-1522885215892	addons.xpi	DEBUG	Existing add-on followonsearch@mozilla.com in app-system-defaults
-1522885215892	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
-1522885215892	addons.xpi	DEBUG	Existing add-on onboarding@mozilla.org in app-system-defaults
-1522885215892	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
-1522885215892	addons.xpi	DEBUG	Existing add-on shield-recipe-client@mozilla.org in app-system-defaults
-1522885215892	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
-1522885215892	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to /Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
-1522885215892	addons.xpi	DEBUG	Existing add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
-1522885215892	addons.xpi	DEBUG	getInstallState changed: false, state: {}
-2018-04-04 19:40:15.917 plugin-container[28687:1075074] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) &apos;Permission denied&apos;, port = 0x751b, name = &apos;com.apple.coredrag&apos;
-See /usr/include/servers/bootstrap_defs.h for the error codes.
-1522885215938	addons.xpi-utils	DEBUG	Async JSON file read took 0 MS
-1522885215938	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
-1522885215942	addons.xpi-utils	DEBUG	Successfully read XPI database
-2018-04-04 19:40:16.674 plugin-container[28688:1075212] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) &apos;Permission denied&apos;, port = 0x7b3b, name = &apos;com.apple.tsm.portname&apos;
-See /usr/include/servers/bootstrap_defs.h for the error codes.
-2018-04-04 19:40:16.799 plugin-container[28688:1075212] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) &apos;Permission denied&apos;, port = 0x7b57, name = &apos;com.apple.coredrag&apos;
-See /usr/include/servers/bootstrap_defs.h for the error codes.
-2018-04-04 19:40:55.644 firefox-bin[28686:1074941] IMKInputSession [0x1216fa700 presentFunctionRowItemTextInputViewWithEndpoint:completionHandler:] : [self textInputContext]=0x11b8cfca0 *NO* NSRemoteViewController to client, NSError=Error Domain=NSCocoaErrorDomain Code=4097 &quot;connection from pid 0&quot; UserInfo={NSDebugDescription=connection from pid 0}, com.apple.inputmethod.EmojiFunctionRowItem
-2018-04-04 19:40:55.651 firefox-bin[28686:1074941] IMKInputSession [0x1216fa700 presentFunctionRowItemTextInputViewWithEndpoint:completionHandler:] : [self textInputContext]=0x11b8cfca0 *NO* NSRemoteViewController to client, NSError=Error Domain=NSCocoaErrorDomain Code=4097 &quot;connection from pid 0&quot; UserInfo={NSDebugDescription=connection from pid 0}, com.apple.inputmethod.EmojiFunctionRowItem
-
-	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:118)
-	... 42 more
-... Removed 34 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-BasicTest-class-failed -->
+          </div> <!-- suite-BasicTest-class-passed -->
         </div> <!-- panel BasicTest -->
         <div panel-name="test-xml-BasicTest" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -369,16 +199,16 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'googleCheeseExample')
 data.setCell(0, 2, 'BasicTest')
-data.setCell(0, 3, 47354);
+data.setCell(0, 3, 17695);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'googleMilkExample')
 data.setCell(1, 2, 'BasicTest')
-data.setCell(1, 3, 46143);
+data.setCell(1, 3, 16503);
 window.suiteTableData['BasicTest']= { tableData: data, tableDiv: 'times-div-BasicTest'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 34 seconds</span>
               <div id="times-div-BasicTest">
               </div> <!-- times-div-BasicTest -->
             </div> <!-- times-div -->
@@ -406,16 +236,12 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">BasicTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">googleCheeseExample</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">googleMilkExample</span>
-                <span class="method-start">47361 ms</span>
+                <span class="method-start">17698 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

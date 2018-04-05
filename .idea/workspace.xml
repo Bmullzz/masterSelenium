@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="233794c7-8b72-478c-8913-7df6fd585f61" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/WebDriverThread.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BasicTest.java" afterPath="$PROJECT_DIR$/src/test/java/BasicTest.java" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/BasicTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/BasicTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/BasicTest/Command line test.html" afterPath="$PROJECT_DIR$/target/surefire-reports/BasicTest/Command line test.html" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/BasicTest/Command line test.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/BasicTest/Command line test.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/BasicTest/testng-failed.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-BasicTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-BasicTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-BasicTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-BasicTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/BasicTest/methods-alphabetical.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/BasicTest/methods-alphabetical.html" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/BasicTest/methods.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/BasicTest/methods.html" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/BasicTest/toc.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/BasicTest/toc.html" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/BasicTest$1.class" afterPath="$PROJECT_DIR$/target/test-classes/BasicTest$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/BasicTest.class" afterPath="$PROJECT_DIR$/target/test-classes/BasicTest.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,12 +16,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="3">
               <caret line="26" column="27" lean-forward="false" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebDriverThread.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/WebDriverThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="29" lean-forward="false" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,6 +88,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/java/BasicTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/WebDriverThread.java" />
       </list>
     </option>
   </component>
@@ -372,7 +368,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522862523638</updated>
-      <workItem from="1522862524935" duration="7344000" />
+      <workItem from="1522862524935" duration="8215000" />
     </task>
     <servers />
   </component>
@@ -394,11 +390,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7344000" />
+    <option name="totallyTimeSpent" value="8215000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -413,7 +408,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -519,6 +514,16 @@
         <state relative-caret-position="3">
           <caret line="26" column="27" lean-forward="false" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WebDriverThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="29" lean-forward="false" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
